@@ -1,5 +1,5 @@
 {
-  "name": "gingercookies-admin-app",
+  "name": "test-admin-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -68,7 +68,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "Web application de gingerCookies pour l'administration de l'entreprise: la gestion interne des clients, des commandes, des différents types de  produits présentés avec leurs ingrédients, de tous les produits achetés",
+  "description": "Web application pour l'administration de l'entreprise: la gestion interne des clients, des commandes, des différents types de  produits présentés avec leurs ingrédients, de tous les produits achetés",
   "author": "Kévin Guieba <kevin.guieba@gmail.com>",
   "license": "MIT",
   "devDependencies": {

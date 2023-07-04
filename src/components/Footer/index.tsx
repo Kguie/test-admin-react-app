@@ -14,8 +14,8 @@ import { colors } from '../../utils/style/variables';
 export default function Footer() {
 
     return (
-        <Grid component={"footer"} marginTop={"20px"} position={"absolute"} bottom={0} width={"100%"} margin={"0 auto"} sx={{ backgroundColor: colors.darkBlue }}  >
-            <Grid color={"#ffffff"} margin={"0 auto"} container maxWidth={"md"} display='flex' flexDirection={'column'} padding="40px"  >
+        <Grid component={"footer"} marginTop={"20px"} position={"absolute"} width={"100%"} margin={"0 auto"} sx={{ backgroundColor: colors.darkBlue }}  >
+            <Grid color={"#ffffff"} margin={"0 auto"} container maxWidth={"md"} display='flex' flexDirection={'column'} padding="40px"   >
                 <Grid>
                     <Grid item display={"flex"} justifyContent={"space-around"} marginTop={"25px"} alignItems={"center"}>
                         <Link color={"#ffffff"} display={"flex"} gap={"5px"} alignItems={"center"} href='/helper'>
