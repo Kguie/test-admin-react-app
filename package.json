@@ -1,25 +1,53 @@
 {
-  "name": "test-admin-react-app",
+  "name": "gingercookies-admin-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/lemonada": "^4.5.14",
+    "@fontsource/montserrat": "^4.5.14",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.5",
+    "@mui/styled-engine-sc": "^5.11.0",
+    "@mui/x-data-grid": "^5.17.22",
+    "@mui/x-date-pickers": "^6.3.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.11",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-swipeable-views": "^0.13.1",
+    "@types/react-swipeable-views-utils": "^0.13.4",
+    "@types/recharts": "^1.8.24",
+    "@types/styled-components": "^5.1.26",
+    "axios": "^1.2.3",
+    "axios-mock-adapter": "^1.21.2",
+    "dayjs": "^1.11.7",
+    "immer": "^9.0.19",
+    "jest-mock-axios": "^4.7.0-beta4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-number-format": "^5.2.2",
+    "react-redux": "^8.1.0",
+    "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "react-swipeable": "^7.0.1",
+    "react-to-print": "^2.14.13",
+    "recharts": "^2.7.1",
+    "redux-persist": "^6.0.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!axios)/\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +67,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "Web application de gingerCookies pour l'administration de l'entreprise: la gestion interne des clients, des commandes, des différents types de  produits présentés avec leurs ingrédients, de tous les produits achetés",
+  "author": "Kévin Guieba <kevin.guieba@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-jest": "^29.1.0"
   }
 }
