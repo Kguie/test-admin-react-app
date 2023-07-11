@@ -1,36 +1,73 @@
-# TEST-App Admin-app #
+# TEST- Admin-app #
+
+[![Version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/Kguie/my-e-portfolio)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+- Ce projet est une app de gestion test.
+
+## Table des Matières
+
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Structure du Projet](#structure-du-projet)
+- [Test du projet](#test-du-projet)
+- [Licence](#licence)
+- [Auteurs](#auteurs)
+- [Contact](#contact)
+
+
+## Introduction
 
 Ce projet est une application réalisée sous React, ayant pour but la gestion administrative d'une patisserie (mais adaptable à un autre domaine).
 
 
-## Principales options disponibles
 
-La version actuelle prend en compte:
+## Installation
 
-    ● La gestion des utilisateurs pouvant se connecter à l'application
+- Installation des dépendances : Cloner ce repository et lancer `yarn install` pour installer les dépendances.
 
-    ● La gestion des clients
+## Utilisation
 
-    ● La gestion des commandes avec la création de devis et l'ajout de photos
+- Utiliser  `yarn start` pour lancer l'application.
+- Ouvrir [http://localhost:3000](http://localhost:3000) pour le  voir dans le navigateur.
 
 
-### Backend
+## Structure du Projet
 
-Le backend Orders permettant la gestion des utilisateurs, des clients, et des commandes est en place.  [Le repository se trouve ici](https://github.com/Kguie/TEST-app-back-order-ts.git)
+-   ├── src/                    # Contient les fichiers sources
+-   │   ├── assets              # Contient les images 
+-   │   ├── data/               # Contient les données des projets  
+-   │   ├── components/         # Composants de l'application
+-   │   ├── pages/              # Pages de l'application
+-   │   └── utils/              # Contient les modules utilitaires
+-   │       ├── context/        # Gestion du context de React Mui
+-   │       ├── hooks/          # Contient les hooks
+-   │       ├── router/         # Contient le module myRouter avec les données de routage
+-   │       ├── style/          # Contient le fichier main.scss 
+-   │       └── test/           # Contient le module render qui permet les tests
+-   ├── LICENSE                 # Fichier de licence du projet
+-   └── index.tsx               # Point d'entrée de l'application
 
-### Front-end installation 
 
-Cloner ce repository et lancer `yarn install` pour installer les dépendances.
-Le dossier .env doit contenir:
-    ● REACT_APP_API_URL: Url de l'application react ("http://localhost:3000" par défaut)
-    ● REACT_APP_CHIEF_ADMIN_EMAIL: émail de l'admin de l'application        
+## Test du projet
 
-### Front-end utilisation 
+- Voici des identifiants pour tester l'app:
+    - id : "kguie.test@outlook.com"
+    - md : "Testmyapp!2023"
 
-Utiliser  `yarn start` pour lancer l'application
-Ouvrir [http://localhost:3000](http://localhost:3000) pour le  voir dans le navigateur.
 
-Veuillez créer un premier utilisateur en cliquant sur le lien correspondant sur la page de connexion. Vous pourrez rajouter l'émail utilisée à .env dans REACT_APP_CHIEF_ADMIN_EMAIL
+
+## Auteurs
+
+- [GUIEBA Kévin](https://github.com/Kguie/)
+
+## Contact
+
+- Si vous vous voulez me contacter, vous pouvez le faire à cette adresse: kevin.guieba@gmail.com
+
+
+
     
 
 
